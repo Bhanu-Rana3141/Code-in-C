@@ -15,13 +15,16 @@ int main() {
         float average;
     }cricketer;
 
-    cricketer first,second;
-    strcpy(first.name,"Virat");
-    first.age=33;
-    first.no_of_matches=300;
-    first.average=55;
+    // strcpy(first.name,"Virat");
+    // first.age=33;
+    // first.no_of_matches=300;
+    // first.average=55;
 
+    cricketer first = {"virat",33,300,55};
+
+    cricketer second;
     second=first;
+    //Changes
     strcpy(second.name,"Sachin");
     second.age=49;
 

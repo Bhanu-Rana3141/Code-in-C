@@ -64,8 +64,46 @@ when we create a class :
     ** struct cricketer -> cricketer
     here we don't need to write struct again and again
 
+    ******For storing a string **(strcpy) is used
+    strcpy(x,y)  --> y ki value x m copy hojayegi but the condition is (size of x) > than (size of value of y)
+    ******
 
+    *******Another way of structure declaration
+    All the values should be passed as the order of attributes.
+    book a ={"java",125.20,400};
+    book b ={"c++",155.20,500};
+    book c = {"dbms",220.45,200};
+    *******
+
+    ******POINTERS*****
+     int *a,b; int *x,int y     first value pointer and second integer
+    int* a=&x; int* b=&y;       first & second ->pointer
+    pointer a=&x,b=&y;          Both pointer using ***typedef
+    ********
+
+
+    *******ARRAY DECLARATION********
+    cricketer arr[3];
+   for(int i=0; i<3; i++){
+    scanf("%s",&arr[i].firstname);
+    scanf("%s",&arr[i].lastName);
+    scanf("%d",&arr[i].age);
+    scanf("%d",&arr[i].no_of_matches);
+    scanf("%f",&arr[i].average);
+   }
+   *********
+
+
+   *********FEATURES*****
     
+    1.Copying 1 structure into another (Assinging 1 structure into other).
+    ** a DEEP COPY is created means if we will do any change in stats of second ,stats of second will be changed
+    and  stats of first will still remain same
+    ** All the attributes of 2 user defined data types can't be compared collectively , they can be compared individually 
+
+
+    2.Nesting one structure into other
+
 
 
 */

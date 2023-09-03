@@ -25,6 +25,7 @@ int main() {
     // POINTERS
     int x=5,y=7;
     // int *a,b; int *x,int y
+    // int* a=&x; int* b=&y;    
     pointer a=&x,b=&y;
     printf("%p\n",a);
     printf("%p",b);

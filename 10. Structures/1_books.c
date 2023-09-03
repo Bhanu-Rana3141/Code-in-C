@@ -14,6 +14,7 @@ int main() {
     book b ={"c++",155.20,500};
     book c = {"dbms",220.45,200};
 
+    
     // strcpy(a.name,"java");
     // a.price = 125.20;
     // a.no_of_pages = 400;

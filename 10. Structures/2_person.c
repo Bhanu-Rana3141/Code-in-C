@@ -6,11 +6,12 @@ int main() {
         int salary;
     }person;
 
-    person person_1;
+    person person_1 = {"Bhanu Rana",500000000};
     person person_2;
 
-    strcpy(person_1.name,"Bhanu");
-    person_1.salary = 30000000;
+    // strcpy(person_1.name,"Bhanu");
+    // person_1.salary = 30000000;
+
 
     strcpy(person_2.name,"Harsh");
     person_2.salary = 30000000;
