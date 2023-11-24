@@ -8,7 +8,7 @@ int main() {
     fclose(ptr);
 
 
-     //READ FILE
+    //READ FILE
 
     // FILE* ptr = fopen("demo.txt","r");
     // char str[100];

@@ -15,7 +15,7 @@ FOR EXAMPLE:
                                         CAR 
 
               Engine        tyres       no_of_seats     name        color                          
-******
+*****
 
 
 // WHY TO USE STRUCTURES ?
